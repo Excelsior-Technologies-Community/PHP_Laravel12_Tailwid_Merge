@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/examples/{type?}', function ($type = 'all') {
     return view('welcome', ['exampleType' => $type]);
 });
+
+Route::get('/playground', function () {
+    return view('playground');
+});
