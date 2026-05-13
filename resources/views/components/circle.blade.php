@@ -1,1 +1,1 @@
-<div {{ $attributes->twMerge('w-14 h-14 rounded-full bg-red-500 shadow-lg transition-transform hover:scale-110') }}></div>
+<div {{ $attributes->twMerge('w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 shadow-lg transition-transform hover:scale-110 cursor-pointer') }}></div>
