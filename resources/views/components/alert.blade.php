@@ -11,7 +11,7 @@
     $title = $title ?? null;
     $alertClasses = $variants[$variant] ?? $variants['info'];
 @endphp
-
+<!-- comments -->
 <div {{ $attributes->twMerge($alertClasses, 'p-4 rounded-xl border-l-4 transition-all duration-300') }}>
     <div class="flex items-start">
         @if($icon)
