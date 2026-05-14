@@ -1,10 +1,14 @@
 export default {
-    content: [
+    darkMode:'class',
+
+    content:[
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
     ],
-    theme: {
-        extend: {},
+
+    theme:{
+        extend:{},
     },
-    plugins: [],
+
+    plugins:[],
 }
